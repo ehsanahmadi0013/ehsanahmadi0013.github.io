@@ -1,7 +1,7 @@
 <html>  
    <body>  
      
-      Welcome <?php echo $_GET["username"]; ?> </br>  
+      Welcome <?php echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';?> </br>  
       Your blood group is: <?php echo $_GET["bloodgroup"]; ?>  
   
    </body>  
